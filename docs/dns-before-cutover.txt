@@ -1,0 +1,430 @@
+DNS inventory for pirrottaconsulting.com
+Captured: Mon May 18 11:41:25 EDT 2026
+Resolver: system default
+No DNS records were changed.
+
+
+===== dig pirrottaconsulting.com NS =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59409
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	NS
+
+;; ANSWER SECTION:
+pirrottaconsulting.com.	14177	IN	NS	ns2.dreamhost.com.
+pirrottaconsulting.com.	14177	IN	NS	ns1.dreamhost.com.
+pirrottaconsulting.com.	14177	IN	NS	ns3.dreamhost.com.
+
+;; Query time: 26 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 210
+
+
+===== dig pirrottaconsulting.com SOA =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com SOA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53879
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	SOA
+
+;; ANSWER SECTION:
+pirrottaconsulting.com.	105	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 31 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 150
+
+
+===== dig pirrottaconsulting.com MX =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52992
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	MX
+
+;; ANSWER SECTION:
+pirrottaconsulting.com.	77	IN	MX	0 mx2.mailchannels.net.
+pirrottaconsulting.com.	77	IN	MX	0 mx1.mailchannels.net.
+
+;; Query time: 26 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 167
+
+
+===== dig pirrottaconsulting.com TXT =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26858
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	TXT
+
+;; ANSWER SECTION:
+pirrottaconsulting.com.	77	IN	TXT	"v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all"
+
+;; Query time: 31 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 163
+
+
+===== dig pirrottaconsulting.com A =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18153
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	A
+
+;; ANSWER SECTION:
+pirrottaconsulting.com.	89	IN	A	172.66.0.70
+
+;; Query time: 31 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 89
+
+
+===== dig pirrottaconsulting.com AAAA =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43967
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	AAAA
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	89	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 29 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 150
+
+
+===== dig pirrottaconsulting.com CNAME =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	CNAME
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	89	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 32 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 150
+
+
+===== dig pirrottaconsulting.com SRV =====
+
+; <<>> DiG 9.10.6 <<>> pirrottaconsulting.com SRV
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12623
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;pirrottaconsulting.com.		IN	SRV
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	300	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 41 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:25 EDT 2026
+;; MSG SIZE  rcvd: 150
+
+
+===== dig www.pirrottaconsulting.com A =====
+
+; <<>> DiG 9.10.6 <<>> www.pirrottaconsulting.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58288
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;www.pirrottaconsulting.com.	IN	A
+
+;; ANSWER SECTION:
+www.pirrottaconsulting.com. 300	IN	CNAME	pirrottaconsulting.com.
+pirrottaconsulting.com.	88	IN	A	172.66.0.70
+
+;; Query time: 103 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 155
+
+
+===== dig www.pirrottaconsulting.com AAAA =====
+
+; <<>> DiG 9.10.6 <<>> www.pirrottaconsulting.com AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28948
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;www.pirrottaconsulting.com.	IN	AAAA
+
+;; ANSWER SECTION:
+www.pirrottaconsulting.com. 300	IN	CNAME	pirrottaconsulting.com.
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 27 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 216
+
+
+===== dig www.pirrottaconsulting.com CNAME =====
+
+; <<>> DiG 9.10.6 <<>> www.pirrottaconsulting.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42857
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;www.pirrottaconsulting.com.	IN	CNAME
+
+;; ANSWER SECTION:
+www.pirrottaconsulting.com. 300	IN	CNAME	pirrottaconsulting.com.
+
+;; Query time: 25 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 117
+
+
+===== dig _dmarc.pirrottaconsulting.com TXT =====
+
+; <<>> DiG 9.10.6 <<>> _dmarc.pirrottaconsulting.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 20097
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;_dmarc.pirrottaconsulting.com.	IN	TXT
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 26 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 157
+
+
+===== dig default._domainkey.pirrottaconsulting.com TXT =====
+
+; <<>> DiG 9.10.6 <<>> default._domainkey.pirrottaconsulting.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52303
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;default._domainkey.pirrottaconsulting.com. IN TXT
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 48 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 169
+
+
+===== dig dkim._domainkey.pirrottaconsulting.com TXT =====
+
+; <<>> DiG 9.10.6 <<>> dkim._domainkey.pirrottaconsulting.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24590
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;dkim._domainkey.pirrottaconsulting.com.	IN TXT
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 49 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 166
+
+
+===== dig selector1._domainkey.pirrottaconsulting.com TXT =====
+
+; <<>> DiG 9.10.6 <<>> selector1._domainkey.pirrottaconsulting.com TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56956
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;selector1._domainkey.pirrottaconsulting.com. IN	TXT
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 47 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 171
+
+
+===== dig mail.pirrottaconsulting.com A =====
+
+; <<>> DiG 9.10.6 <<>> mail.pirrottaconsulting.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24774
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;mail.pirrottaconsulting.com.	IN	A
+
+;; ANSWER SECTION:
+mail.pirrottaconsulting.com. 300 IN	A	64.90.62.162
+
+;; Query time: 33 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 99
+
+
+===== dig mail.pirrottaconsulting.com CNAME =====
+
+; <<>> DiG 9.10.6 <<>> mail.pirrottaconsulting.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33694
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;mail.pirrottaconsulting.com.	IN	CNAME
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 37 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 155
+
+
+===== dig autodiscover.pirrottaconsulting.com CNAME =====
+
+; <<>> DiG 9.10.6 <<>> autodiscover.pirrottaconsulting.com CNAME
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31749
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;autodiscover.pirrottaconsulting.com. IN	CNAME
+
+;; AUTHORITY SECTION:
+pirrottaconsulting.com.	299	IN	SOA	ns1.dreamhost.com. hostmaster.dreamhost.com. 2025010901 16600 600 1814400 300
+
+;; Query time: 27 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 163
+
+
+===== dig _autodiscover._tcp.pirrottaconsulting.com SRV =====
+
+; <<>> DiG 9.10.6 <<>> _autodiscover._tcp.pirrottaconsulting.com SRV
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40542
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;_autodiscover._tcp.pirrottaconsulting.com. IN SRV
+
+;; ANSWER SECTION:
+_autodiscover._tcp.pirrottaconsulting.com. 300 IN SRV 5 0 443 autoconfig.dreamhost.com.
+
+;; Query time: 47 msec
+;; SERVER: 192.168.4.1#53(192.168.4.1)
+;; WHEN: Mon May 18 11:41:26 EDT 2026
+;; MSG SIZE  rcvd: 155
+
