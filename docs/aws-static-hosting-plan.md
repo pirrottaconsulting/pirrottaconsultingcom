@@ -28,8 +28,10 @@ These are certificate validation records only. They are not web traffic cutover 
 
 When the production CloudFront distribution is ready and the ACM certificate is issued, only web traffic records should change:
 
-- Apex `A`/`AAAA` alias for `pirrottaconsulting.com` to the production CloudFront distribution.
-- `www` alias or CNAME for `www.pirrottaconsulting.com` to the production CloudFront distribution.
+- Apex `ALIAS`/`ANAME` for `pirrottaconsulting.com` pointing to `dklmsl6csyyrp.cloudfront.net`.
+- `www` `CNAME` for `www.pirrottaconsulting.com` pointing to `dklmsl6csyyrp.cloudfront.net`.
+
+Before changing those records, attach `pirrottaconsulting.com` and `www.pirrottaconsulting.com` as CloudFront alternate domain names and switch the distribution to the issued ACM certificate.
 
 Do not change nameservers, MX, SPF, DKIM, DMARC, mail-related TXT, SRV, or DreamHost email settings.
 
