@@ -8,6 +8,7 @@ No DNS cutover has been performed.
 - CloudFront distribution: `EKWXPWAA7WKD2`
 - CloudFront preview URL: `https://dklmsl6csyyrp.cloudfront.net`
 - Origin Access Control: `E1SKYG5CB013NG`
+- CloudFront invalidation completed: `I4HRRBYF7VQE0R2JKDU3WBO1P5`
 - Viewer protocol policy: redirect HTTP to HTTPS
 - Compression: enabled
 - Default root object: `index.html`
