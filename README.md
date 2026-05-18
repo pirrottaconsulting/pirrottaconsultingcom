@@ -37,3 +37,5 @@ The target production architecture is:
 - ACM certificate in `us-east-1` for `pirrottaconsulting.com` and `www.pirrottaconsulting.com`
 
 DNS and email were intentionally not changed during the rebuild.
+
+Preview deployment details are documented in `docs/aws-static-hosting-plan.md`.
