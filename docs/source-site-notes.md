@@ -19,4 +19,4 @@ Source reviewed: `https://pirrottaconsulting.com/` on May 18, 2026.
 
 ## Note
 
-The current Carrd source did not expose a mailto address. The rebuild uses `chris@pirrottaconsulting.com` for mail links and does not change any email service, DNS, MX, SPF, DKIM, DMARC, or DreamHost settings.
+The current Carrd source did not expose a mailto address. The rebuild uses a server-backed contact form and does not expose a recipient email address in the page markup. No DNS, MX, SPF, DKIM, DMARC, or DreamHost email settings were changed.

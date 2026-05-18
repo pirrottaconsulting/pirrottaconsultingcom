@@ -9,10 +9,12 @@ Static rebuild of `pirrottaconsulting.com`, replacing the current Carrd website 
 - `terms.html` - Terms of Service
 - `standard-terms.html` - Standard Terms and Conditions
 - `assets/css/styles.css` - site styles
+- `assets/js/main.js` - contact form submission handling
 - `assets/images/` - optimized public assets from the current site
 - `docs/dns-before-cutover.txt` - read-only DNS inventory captured before any web cutover
 - `robots.txt` and `sitemap.xml` - SEO support files
 - `llms.txt` and `llms-full.txt` - LLM-readable site summaries
+- `infrastructure/contact-form/` - Lambda source for the AWS-backed contact form
 - `docs/seo-llmo-accessibility-notes.md` - implementation notes
 
 ## Local Preview
