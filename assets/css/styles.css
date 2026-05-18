@@ -350,6 +350,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 88% 50%;
 }
 
 .feature-band__copy {
@@ -445,6 +446,31 @@ h3 {
   width: 100%;
   height: 430px;
   object-fit: cover;
+}
+
+.image-pair img:first-child {
+  object-position: 79% 46%;
+}
+
+.image-pair img:last-child {
+  object-position: 28% 42%;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.faq-item {
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(247, 241, 231, 0.055);
+}
+
+.faq-item p {
+  color: var(--muted);
 }
 
 .contact-layout {
@@ -639,6 +665,10 @@ h3 {
   .image-pair img {
     height: 340px;
   }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 680px) {
@@ -719,6 +749,18 @@ h3 {
 
   .image-pair img {
     height: 270px;
+  }
+
+  .feature-band__image img {
+    object-position: 88% 50%;
+  }
+
+  .image-pair img:first-child {
+    object-position: 82% 48%;
+  }
+
+  .image-pair img:last-child {
+    object-position: 24% 42%;
   }
 
   .site-footer {
