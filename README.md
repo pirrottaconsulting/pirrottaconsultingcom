@@ -7,7 +7,7 @@ Static rebuild of `pirrottaconsulting.com`, replacing the current Carrd website 
 - `index.html` - main website
 - `privacy.html` - Privacy Policy
 - `terms.html` - Terms of Service
-- `standard-terms.html` - Standard Terms and Conditions
+- `standard-terms.html` - legacy Standard Terms page retained, but no longer linked from the footer or sitemap
 - `assets/css/styles.css` - site styles
 - `assets/js/main.js` - contact form submission handling
 - `assets/images/` - optimized public assets from the current site

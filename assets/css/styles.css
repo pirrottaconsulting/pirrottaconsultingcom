@@ -849,13 +849,26 @@ h3 {
   line-height: 1.2;
 }
 
+.legal-main h3 {
+  margin-top: 1.4rem;
+  color: var(--paper-ink);
+  font-size: 1.08rem;
+}
+
 .legal-main p,
 .legal-main li {
   color: #46392f;
 }
 
-.legal-main ol {
+.legal-main ol,
+.legal-main ul {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
   padding-left: 1.35rem;
+}
+
+.legal-main li {
+  margin-bottom: 0.35rem;
 }
 
 .legal-main a {
@@ -865,6 +878,10 @@ h3 {
 .legal-page .site-footer {
   border-top: 1px solid rgba(37, 30, 24, 0.16);
   color: #6d5e51;
+}
+
+.legal-page .copyright {
+  color: var(--paper-muted);
 }
 
 .legal-page .footer-links a {
