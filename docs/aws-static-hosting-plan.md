@@ -18,6 +18,7 @@ CloudFront is ready for website DNS cutover. No DreamHost DNS cutover has been p
 - Viewer protocol policy: redirect HTTP to HTTPS
 - Compression: enabled
 - Default root object: `index.html`
+- Custom error page: `/404.html` for missing routes
 - Response headers: managed security headers policy
 - Custom certificate in `us-east-1`: `arn:aws:acm:us-east-1:796973506838:certificate/68635dbf-6856-44e5-8100-046c8ab52602`
 - ACM certificate status: `ISSUED`

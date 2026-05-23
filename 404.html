@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found | Pirrotta Consulting</title>
+    <meta name="description" content="The page could not be found. Return to Pirrotta Consulting.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20260523-1">
+    <script src="/assets/js/consent.js?v=20260520-1" defer></script>
+  </head>
+  <body class="not-found-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="/" aria-label="Pirrotta Consulting home">
+        <img src="/assets/images/pirrotta-consulting-logo.png" width="169" height="144" alt="Pirrotta Consulting LLC">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/#work">What We Do</a>
+        <a href="/#who">Who We Help</a>
+        <a href="/#community">Community</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="not-found-hero" id="main">
+      <div class="not-found-hero__media" aria-hidden="true"></div>
+      <section class="not-found-content" aria-labelledby="not-found-title">
+        <p class="eyebrow">404 - Page not found</p>
+        <p class="error-code" aria-hidden="true">404</p>
+        <h1 id="not-found-title">This path got lost in the system.</h1>
+        <p class="lost-line" data-lost-line>Are you lost? Good news: the useful stuff is still one click away.</p>
+        <p class="lead">No harm done. The main page has the good stuff: strategy, systems, AI-aware workflows, and practical ways to serve people better.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="/">Back to home</a>
+          <a class="button button--secondary" href="/#contact">Get in touch</a>
+        </div>
+        <div class="not-found-panel" aria-label="Helpful routes">
+          <p>Helpful exits</p>
+          <div class="not-found-routes">
+            <a href="/#work">What We Do</a>
+            <a href="/#community">Community Systems</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="/assets/images/pirrotta-consulting-mark.png" width="90" height="76" alt="" aria-hidden="true">
+        <p>Pirrotta Consulting LLC</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <button type="button" data-cookie-preferences>Cookie Preferences</button>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <p class="copyright">&copy; 2026 Pirrotta Consulting LLC. All rights reserved.</p>
+    </footer>
+
+    <script>
+      (function () {
+        var messages = [
+          "Are you lost, or just doing advanced wayfinding?",
+          "This page took a meeting and never came back.",
+          "The link sounded confident. The link was wrong.",
+          "This route has been sunset, archived, or never existed. Very mysterious. Very web.",
+          "You found the missing-page department. It is efficient, but mostly empty."
+        ];
+        var target = document.querySelector("[data-lost-line]");
+        if (target) {
+          target.textContent = messages[Math.floor(Math.random() * messages.length)];
+        }
+      })();
+    </script>
+  </body>
+</html>

@@ -5,6 +5,7 @@ Static rebuild of `pirrottaconsulting.com`, replacing the current Carrd website 
 ## Structure
 
 - `index.html` - main website
+- `404.html` - themed not-found page for missing routes
 - `privacy.html` - Privacy Policy
 - `terms.html` - Terms of Service
 - `standard-terms.html` - legacy Standard Terms page retained, but no longer linked from the footer or sitemap
