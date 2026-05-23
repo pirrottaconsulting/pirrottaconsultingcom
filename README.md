@@ -10,6 +10,8 @@ Static rebuild of `pirrottaconsulting.com`, replacing the current Carrd website 
 - `terms.html` - Terms of Service
 - `standard-terms.html` - legacy Standard Terms page retained, but no longer linked from the footer or sitemap
 - `assets/css/styles.css` - site styles
+- `assets/js/consent-loader.js` - consent provider switch (`secretandsafe`, `legacy`, or `off`)
+- `assets/js/consent.js` - preserved first-party GA consent engine, used when the loader is set to `legacy`
 - `assets/js/main.js` - contact form submission handling
 - `assets/images/` - optimized public assets from the current site
 - `docs/dns-before-cutover.txt` - read-only DNS inventory captured before any web cutover

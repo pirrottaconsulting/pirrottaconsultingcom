@@ -314,7 +314,7 @@
     }
   });
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initConsent() {
     bindPreferenceLinks();
 
     var consent = getConsent();
@@ -329,5 +329,11 @@
 
     disableAnalytics();
     showBanner();
-  });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initConsent);
+  } else {
+    initConsent();
+  }
 })();
